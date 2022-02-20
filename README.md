@@ -4,7 +4,7 @@ The Shared Bill Tip Calculator considers the cost of the service, number of peop
 
 The Tip Calculator calculates tip amount for various percentages of the cost of the service
 
-## Video Link of my static web worcking - https://youtu.be/qxUXKrDt1lc
-## my project other link host by staic wesite in storage account -https://webclalulatorapp.z13.web.core.windows.net/
+### Video Link of my static web worcking - https://youtu.be/qxUXKrDt1lc
+### my project other link host by (staic wesite in storage account and chage in component) -https://webclalulatorapp.z13.web.core.windows.net/
 
 
