@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Hello, world!</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="logo-image">
+                    <img src="tip.png" class="img bnt-sm" width="50">
+                </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i>Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <hr>
+    
+    <br>
+
+
+
+
+
+
+<div class="container">
+    <br>
+    <div id="container" class="contaner text-center border">
+        <br>
+        <h1>Tip Calculator</h1>
+        <div id="calculator">
+            <div class="text-center ">
+                <img src='bg.png' class="img-fluid" width="25%" alt="Responsive image">
+            </div>
+
+
+            <form>
+                <h4>How much was your bill?</h4>
+                <p>
+                    <input id="billamt" type="text" placeholder=" $ Bill Amount">
+
+                <h4>How was your service?</h4>
+                <p>
+                    <select id="serviceQual" class="form-group">
+                        <option disabled selected value="0">-- Choose an Option --</option>
+                        <option value="0.3">30&#37; &#45; Outstanding</option>
+                        <option value="0.2">20&#37; &#45; Good</option>
+                        <option value="0.15">15&#37; &#45; It was OK</option>
+                        <option value="0.1">10&#37; &#45; Bad</option>
+                        <option value="0.05">5&#37; &#45; Terrible</option>
+                    </select>
+                    <br>
+
+            </form>
+            <h4>How many people are sharing the bill?</h4>
+            <input id="peopleamt" type="text" placeholder="Number of People">
+            <br>
+            <br>
+
+            <button type="button" class="btn btn-success" id="calculate">Calculate!</button>
+
+        </div>
+        <br>
+        <!--calculator end-->
+        <h3 class="">
+            <div id="totalTip">
+                <sup>$</sup><span id="tip">0.00</span>
+                <br>
+                <small id="each">each</small>
+            </div>
+        </h3>
+        <!--totalTip end-->
+        <br>
+
+    </div>
+    <!--container end-->
+
+    <script type="text/javascript" src="index.js"></script>
+
+    <BR>
+    <br>
+
+</div>
+<br>
+<hr>
+<div class="container text-info">
+tip or gratuity is an extra sum of money paid to certain service workers for a provided service. Tip amounts, as well as acceptance, vary in different parts of the world. In some countries in East Asia, such as Japan, tips are seen as insulting and can sometimes be interpreted as a bribe. In yet other countries, such as the United States, tipping is widely expected, and in many cases, is even factored into a service worker's compensation towards satisfying the minimum wage requirement. This is important to note, since although tipping is entirely voluntary, many servers depend on tips to make a living in countries like the United States. As such, as a tourist, it can be helpful to research the tipping customs in the countries being visited. In the U.S. or any other country where tipping is expected, depending on the restaurant or the number of patrons at a table, gratuity may be automatically applied to the bill amount. As previously mentioned, tipping can be offensive in some countries, so although a citizen of the United States that is visiting another country may want to express their appreciation of the service provided, the gesture may, in some cases, result in the opposite effect.
+
+Below is a map that provides some information regarding whether or not a tip is expected, or how a tip may be received in certain regions, as well as a table of typical tip amounts in the United States and Canada for different services.
+
+</div>
+<br>
+<div class="text-center ">
+    <img src='world.GIF' class="img-fluid" width="25%" alt="Responsive image">
+</div>
+
+
+
+
+
+
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container-fuild">
+        <!-- Footer -->
+        <footer class="text-center text-white" style="background-color: #424242">
+            <!-- Grid container -->
+            <div class="container">
+                <!-- Section: Links -->
+                <section class="mt-5">
+                    <!-- Grid row-->
+                    <div class="row text-center d-flex justify-content-center pt-3">
+                        
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="index.html" class="text-white">Home</a>
+                            </h6>
+                        </div>
+
+                        <!-- Grid column -->
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="About.html" class="text-white">About</a>
+                            </h6>
+                        </div>
+
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="contact.html" class="text-white">Contact</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row-->
+                </section>
+                <!-- Section: Links -->
+
+                <hr />
+
+                <!-- Section: Text -->
+                <section class="mb-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-10">
+                            <p>
+                                Whenever I go out to eat and I’m having a hard time calculating the right tip, I’ll fumble with my phone and search for a “tip calculator” on Google. I couldn’t tell you the name or the URL of the one I usually end up using, but it’s a simple JavaScript app
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Section: Text -->
+
+                <!-- Section: Social -->
+                <section class="text-center mb-5">
+                    <a href="" type="button" class="btn text-white btn-floating mx-1">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="" type="button" class="btn text-white btn-floating mx-1">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="" type="button" class="btn text-white btn-floating mx-1">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="" type="button" class="btn text-white btn-floating mx-1">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" type="button" class="text-white me-4 btn-floating mx-1">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="" type="button" class="btn text-white btn-floating mx-1">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </section>
+
+                <!-- Section: Social -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2021 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">ketan sandbhor </a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
